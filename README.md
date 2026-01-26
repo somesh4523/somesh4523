@@ -29,7 +29,7 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 
 **Video Links**
 
-[![task 1A](https://img.youtube.com/vi/LrYRBRy2o2j9KPXJ/0.jpg)](https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ)
+[![Task 1A](https://img.youtube.com/vi/c06t9Fp7DUM/0.jpg)](https://youtu.be/c06t9Fp7DUM)
 
 *task 1a: https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ
 
