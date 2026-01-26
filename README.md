@@ -57,6 +57,15 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 **Youtube link**
 https://www.youtube.com/watch?v=EGwbuzP8Ato
 
+**Images**
+<img width="853" height="544" alt="R1" src="https://github.com/user-attachments/assets/dc4556cb-1deb-4210-8437-cc85b8a697dc" />
+<img width="858" height="551" alt="R2" src="https://github.com/user-attachments/assets/6af0c99e-9278-44a7-a0d3-2e632c6795f6" />
+<img width="855" height="547" alt="R3" src="https://github.com/user-attachments/assets/7d5f2fac-541e-494d-ab50-67a431f8422d" />
+<img width="854" height="547" alt="R4" src="https://github.com/user-attachments/assets/c7f97178-fbe4-43b5-bfef-9015c337b2a2" />
+<img width="852" height="544" alt="R5" src="https://github.com/user-attachments/assets/6007bc20-04c3-4e47-8b4e-cf8f5dd2d60a" />
+<img width="860" height="547" alt="R6" src="https://github.com/user-attachments/assets/f7b82a09-6cd3-4bb5-a4b6-4cac59c04c43" />
+
+
 ### 🤖 Anti-Swing Prescribed Time Adaptive Control of overhead gantry cranes
 **PhD Research**
 **Control Theory, MATLAB, SIMULINK**
