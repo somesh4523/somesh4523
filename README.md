@@ -59,6 +59,5 @@ This task relies on ROS 2 Humble nodes to manage the complex movement of a 3-Whe
 ---
 
 ## 📫 Connect with Me
-* [LinkedIn](https://linkedin.com/in/yourprofile)
-* [Portfolio Website](https://yourwebsite.com)
-* Email: your.email@example.com
+* [LinkedIn](www.linkedin.com/in/somesh-swami-8b7684219)
+* Email: somesh.swami398@gmail.com
