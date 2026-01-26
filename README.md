@@ -31,6 +31,19 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 
 [![Task 1A](https://img.youtube.com/vi/c06t9Fp7DUM/0.jpg)](https://youtu.be/c06t9Fp7DUM)
 
+<p align="center">
+  <a href="https://youtu.be/c06t9Fp7DUM">
+    <img src="https://img.youtube.com/vi/c06t9Fp7DUM/0.jpg" alt="Task 1A">
+  </a>
+</p>
+
+<p align="center">
+  <em>
+    Task 1A: Differential-drive robot following the desired trajectory using the implemented controller. The video highlights stability, tracking accuracy, and smooth motion.
+  </em>
+</p>
+
+
 *task 1a: https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ
 
 *task 1c: https://youtu.be/6spwOHrpxCE?si=wuqR7UYc63uv4LN5
