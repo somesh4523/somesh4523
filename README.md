@@ -19,9 +19,19 @@ This project simulates a "Smart Farmhouse" where a mobile robot and a robotic ar
 * 1. Autonomous Navigation & Feedback Control
 This task relies on ROS 2 Humble nodes to manage state estimation and velocity command generation. The mobile robot (eBot) utilizes Odometry data (nav_msgs/Odometry) for real-time position feedback and a 2D LIDAR (sensor_msgs/LaserScan) for obstacle sensing. The core navigation logic involves implementing a Proportional (P) Controller to minimize the Euclidean distance and heading error between the robot's current pose and the target waypoints. Velocity commands are published to the /cmd_vel topic using geometry_msgs/Twist messages to drive the differential drive kinematics.
 * 2. Computer Vision & Feature Extraction
-Perception is handled using the OpenCV library within a ROS 2 package. The pipeline begins with converting raw RGB images to the HSV Color Space to perform robust color thresholding (masking) for identifying "bad" fruits (greyish-white). For shape detection (triangles/squares), the system employs Canny Edge Detection and Contour Approximation (cv2.approxPolyDP) to analyze geometric vertices. Additionally, ArUco Marker detection is used for high-precision localization of fertilizer cans, requiring the calibration of camera intrinsics to solve the Perspective-n-Point (PnP) problem for pose estimation.
+Perception is handled using the OpenCV library within a ROS 2 package. The pipeline begins with converting raw RGB images to the HSV Color Space to perform robust color thresholding (masking) for identifying "bad" fruits (greyish-white). For shape detection (triangles/squares), the s<img width="1920" height="1080" alt="KC#2238_color_image" src="https://github.com/user-attachments/assets/30eee78b-b0d8-4831-b4ca-ed7096ec6d15" />
+ystem employs Canny Edge Detection and Contour Approximation (cv2.approxPolyDP) to analyze geometric vertices. Additionally, ArUco Marker detection is used for high-precision localization of fertilizer cans, requiring the calibration of camera intrinsics to solve the Perspective-n-Point (PnP) problem for pose estimation.
 * 3. Robotic Manipulation & Kinematics
 The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar serial manipulator) within the Gazebo simulation environment. The technical core requires solving the Inverse Kinematics (IK) to map the desired 3D end-effector coordinates (derived from the vision system) to specific joint angles. This process relies heavily on the TF2 (Transform Library) to broadcast and listen to coordinate frame transformations, ensuring the target object's pose in the Camera Frame is correctly transformed into the Robot Base Frame for accurate pick-and-place execution.
+
+**Video Links**
+
+[![Turtlebot Formation Control](https://img.youtube.com/vi/LrYRBRy2o2j9KPXJ/0.jpg)](https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ)
+
+*task 1a: https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ
+
+*task 1c: https://youtu.be/6spwOHrpxCE?si=wuqR7UYc63uv4LN5
+
 
 ### 🤖 Optimal Control of Multi-Robot Systems
 **PhD Research**
