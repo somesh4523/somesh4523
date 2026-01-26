@@ -15,8 +15,6 @@ I am a PhD Scholar specializing in Control and Automation.
 ### 🚀 Krishi Cobot
 **eYantra_25-26**
 **ROS2, Gazebo, OpenCV**
-**Description:**
-
 This project simulates a "Smart Farmhouse" where a mobile robot and a robotic arm cooperate to manage crops.
 * 1. Autonomous Navigation & Feedback Control
 This task relies on ROS 2 Humble nodes to manage state estimation and velocity command generation. The mobile robot (eBot) utilizes Odometry data (nav_msgs/Odometry) for real-time position feedback and a 2D LIDAR (sensor_msgs/LaserScan) for obstacle sensing. The core navigation logic involves implementing a Proportional (P) Controller to minimize the Euclidean distance and heading error between the robot's current pose and the target waypoints. Velocity commands are published to the /cmd_vel topic using geometry_msgs/Twist messages to drive the differential drive kinematics.
@@ -28,7 +26,6 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 ### 🤖 Optimal Control of Multi-Robot Systems
 **PhD Research**
 **Control Theory, MATLAB**
-**Advantages:**
 * Nonlinear Model Predictive Control design ensures optimal control of each individual agent.
 * High-level formation trajectory planner ensures desired formation.
 * Integrated planning and tracking control architecture allows optimal control of Multi-Robot Systems in a formation.
@@ -36,7 +33,6 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 ### 🤖 Anti-Swing Prescribed Time Adaptive Control of overhead gantry cranes
 **PhD Research**
 **Control Theory, MATLAB, SIMULINK**
-**Advantages:**
 * 1. Multi-Body Lagrangian Dynamics Modeling
 The foundation of the control system is a high-fidelity dynamic model derived using the Euler-Lagrange formulation. The system is modeled as a 7-DOF underactuated mechanism where the state vector $q(t) = [x, y, l_1, \theta_1, \theta_2, \theta_3, \theta_4]^T$ represents the trolley/bridge displacement, hoisting cable length, and the spherical swing angles of the dual payload. The equations of motion are expressed as $\underline{M}(q)\ddot{q} + \underline{C}(q,\dot{q})\dot{q} + \underline{G}(q) = \underline{F}$, capturing the highly coupled nonlinearities between the actuated translation states and the unactuated sway dynamics.
 * 2. Partial Feedback Linearization & Decoupling
@@ -54,8 +50,6 @@ To prevent dangerous payload collisions or cable snapping, the controller is mat
 ### 🚀 Hologlyph Bots
 **eYantra_25-26**
 **ROS2, Gazebo, OpenCV, EasyEDA**
-**Description:**
-
 Using multiple nonholonomic robots to create large-scale designs or "geoglyphs," involving coordinated swarm robotics for efficiency in tasks like complex pattern formation.
 * 1. Holonomic Navigation & Kinematics Control
 This task relies on ROS 2 Humble nodes to manage the complex movement of a 3-Wheel Omnidirectional (Holonomic) Drive. Unlike differential drive robots, these bots utilize Inverse Kinematics (IK) matrices to resolve the desired chassis velocity vector $(v_x, v_y, \omega_z)$ into individual wheel angular velocities. The core navigation logic involves implementing a PID Controller to minimize the error between the robot's current pose and the target trajectory points. Velocity commands are published to the /cmd_vel topic using geometry_msgs/Twist messages, enabling simultaneous translation and rotation for smooth, drift-free motion.
