@@ -54,6 +54,9 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 * High-level formation trajectory planner ensures desired formation.
 * Integrated planning and tracking control architecture allows optimal control of Multi-Robot Systems in a formation.
 
+**Youtube link**
+https://www.youtube.com/watch?v=EGwbuzP8Ato
+
 ### 🤖 Anti-Swing Prescribed Time Adaptive Control of overhead gantry cranes
 **PhD Research**
 **Control Theory, MATLAB, SIMULINK**
