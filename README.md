@@ -10,7 +10,7 @@ I am a PhD Scholar specializing in Control and Automation.
 ---
 
 ## 🔐 Research Projects
-*Since many of my projects are proprietary or research-based, the source code is private. Below is a summary of my contributions to these projects.*
+*Below is a summary of my contributions to these projects.*
 
 ### 🚀 Krishi Cobot
 **eYantra_25-26**
@@ -42,9 +42,31 @@ The manipulation task involves controlling a UR5 6-DOF Robotic Arm (or similar s
 </p>
 
 
-*task 1a: https://youtu.be/c06t9Fp7DUM?si=LrYRBRy2o2j9KPXJ
+<p align="center">
+  <a href="https://youtu.be/6spwOHrpxCE">
+    <img src="https://img.youtube.com/vi/6spwOHrpxCE/0.jpg" alt="Task 1C">
+  </a>
+</p>
 
-*task 1c: https://youtu.be/6spwOHrpxCE?si=wuqR7UYc63uv4LN5
+<p align="center">
+  <em>
+    Task 1C: Differential-drive robot trajectory tracking under modified conditions.
+    The video demonstrates controller robustness and improved convergence behavior.
+  </em>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=-l8jrsSPAc8">
+    <img src="https://img.youtube.com/vi/-l8jrsSPAc8/0.jpg" alt="Task 2A">
+  </a>
+</p>
+
+<p align="center">
+  <em>
+    Task 2A: Advanced control task showcasing system performance under different reference trajectories.
+    Emphasis is placed on stability, accuracy, and smooth control action.
+  </em>
+</p>
 
 
 ### 🤖 Optimal Control of Multi-Robot Systems
