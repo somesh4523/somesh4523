@@ -10,7 +10,7 @@ I am a PhD Scholar specializing in Control and Automation.
 ---
 
 ## 🔐 Research Projects
-*Below is a summary of my contributions to these projects.*
+*Below is a summary of my projects.*
 
 ### 🚀 Krishi Cobot
 **eYantra_25-26**
